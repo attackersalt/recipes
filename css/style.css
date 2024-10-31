@@ -20,6 +20,8 @@ body {
 .note {
     color: rgb(0, 0, 0, 0.5);
     font-size: 14px;
+    margin: 45px;
+    display: block;
 }
 
 .head-2 {
@@ -41,4 +43,18 @@ body {
     text-align: center;
     font-size: 24px;
     font-weight: 1000;
+}
+
+.running li {
+    display: inline-block;
+    width: 32.9%;
+}
+.running a {
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+    padding: 4px;
+}
+.running.list {
+    padding: 0;
 }
